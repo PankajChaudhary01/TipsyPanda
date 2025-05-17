@@ -1,0 +1,112 @@
+.bx {
+    height: 500px;
+    padding: 0;
+    position: relative;
+}
+
+.blue {
+    clip-path: polygon(60% 0%, 100% 0, 100% 100%, 0 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.blue h3,
+.blue h4 {
+    color: #ddd;
+    padding: 35px;
+    padding-top: 150px;
+    padding-left: 326px;
+}
+
+/* span{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+} */
+.fa {
+    font-size: 25px;
+}
+
+#right {
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+}
+
+@media(min-width:576px), (max-width:767px) {
+
+    .blue h3,
+    .blue h4 {
+        color: #a3a0a0;
+        padding: 35px;
+        padding-top: 126px;
+        padding-left: 247px;
+    }
+}
+
+@media(min-width: 768px) {
+
+    .blue h3,
+    .blue h4 {
+        color: #a3a0a0;
+        padding: 35px;
+        padding-top: 150px;
+        padding-left: 326px;
+    }
+}
+
+@media(min-width:320px) {
+
+    .blue h3,
+    .blue h4 {
+        color: #a3a0a0;
+        padding: 35px;
+        padding-top: 150px;
+        padding-left: 326px;
+    }
+}
+
+.simsu {
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+    height: 330px;
+    width: 235px;
+    z-index: 1;
+}
+
+.cimsu {
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+    height: 390px;
+    width: 300px;
+    z-index: 1;
+}
+
+.trash:hover {
+    cursor: pointer;
+}
+
+body {
+
+    /* background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 50%, #ffffff 100%);  */
+
+    font-family: "DynaPuff", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.zoom:hover {
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+.zoom {
+    transition: 2s;
+}
