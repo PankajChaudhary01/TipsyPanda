@@ -2,7 +2,6 @@
 
 Tipsy Panda is a modern, responsive eCommerce web application for purchasing a wide variety of liquors online. Built using **React.js**, it features smooth navigation, product filtering by categories, and a clean, user-friendly UI.
 
-![Preview](./src/Images/preview.png)
 
 ## 🚀 Features
 
