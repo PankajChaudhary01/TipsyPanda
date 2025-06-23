@@ -5,7 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'; // Make sure to install boots
 // --- SECURITY WARNING ---
 // Critical: Secure your API key. Never expose it in frontend code for production.
 // Consider using environment variables or a backend proxy.
-const API_KEY = 'Bearer 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'; // Replace with your actual key ONLY for local dev/testing
+const API_KEY = 'Bearer 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'; // Replace with your actual key ONLY for local dev/testing
 const API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
 // --- Component Start ---
